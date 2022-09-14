@@ -1,22 +1,22 @@
-# guille_gangsv2 https://discord.gg/eBpmkW6e5j https://discord.gg/eBpmkW6e5j
+guille_gangsv2feature;
 
-## Download & Installation (If you need a more complete gang system, check out https://store.rcore.cz/gangsystem#package:4913168 made by my Rcore mates ♥)
+1 Custom gang member management gang level management custom level kick out gang members
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
+2 Custom Gang Vehicles Gang Style Custom Armory Boss Features and More
 
-fvm install --save --folder=local guillerp8/guille_gangsv2
-### Using [Git](https://git-scm.com/downloads)
+3 Permission restrictions Only administrators can create gangs Any function can be freely customized by players
 
-cd resources
-git clone https://github.com/guillerp8/guille_gangsv2 [local]/guille_gangsv2
-### Manually
-- Download https://github.com/guillerp8/guille_gangsv2/archive/master.zip
-- Put it in the `[local]` directory
+instruction;
 
-# Commands
+/setgang The ID of the puller player used by the admin. The name of the gang, the authority level is also the position level
 
-- /creategang
-- /modifygangs
-- /setgang + id + gang + rank
-- /setgangmember + id + rank (Only works if you are gang boss to add members to your gang)
-- Interaction menu at f11
+/setgangmember is the same as the previous one, enter the player ID gang name permission level
+
+/creategang creates a gang game admins can use
+
+/modifygangs Modify gangs
+
+compatibility;
+
+This script has been modified and rewritten by myself to work perfectly on ESX Legacy and ESX1.2 Database support Support oxmysql and mysql-async Need to be changed in fxmanifest.lua
+original author  guille
